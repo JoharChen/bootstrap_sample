@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap practise</title>
+    <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="indexStyle.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg">
+    <link rel="stylesheet" href="./bootstrap-3.3.7-dist/js/bootstrap.js">
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="./bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+</head>
+<body class="fonts1">
+
+<div id="myCarousel" class="carousel slide">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0"
+            class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+    <!-- 轮播（Carousel）项目 -->
+
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="凤舞华师_副本3.jpg" alt="First slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>华中师范大学教育信息化技术学院</h1>
+                    <br/>
+                    <h4>学院把“立德树人”作为根本任务，始终坚持“以生为本、以师为先”的办学理念，
+                    学院下设教育技术系、数字媒体系、科学教育与传播系，在校学生近1000人。
+                    形成了包括全日制本科生、硕士生和博士生在内的多层次办学格局和人才培养体系。</h4>
+                    <br/><br/>
+                    <button type="button" class="btn btn-default">联系我们</button>
+                    <br/><br/><br/>
+                 </div>
+            </div>
+        </div>
+
+
+        <div class="item">
+            <img src="雨中华师_副本.jpg" alt="Second slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>文科综合实验中心（华中师范大学）</h1>
+                    <br/>
+                    <h4>为适应近年来国家文化产业飞速发展及相关人才需求急剧增长的现状，
+                        该校发挥文科和信息技术相关学科综合优势、倾力打造文化产业人才培养基地，
+                        为国家和社会培养急需的人才。培养具有实践能力、研究能力、创新能力的复合型人才。</h4>
+                    <br/><br/>
+                    <button type="button" class="btn btn-default">联系我们</button>
+                    <br/><br/><br/>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="carousel-control left arrowTab" href="#myCarousel"
+       data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right arrowTab" href="#myCarousel"
+       data-slide="next">&rsaquo;</a>
+
+<script>
+    $(function(){
+            $("#myCarousel").carousel('next');
+
+    });
+</script>
+
+<div class="container">
+    <div class="container head">
+        <nav class="navbar navbar-inverse" role="navigation">
+          <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <a class="navbar-brand" href="#">CCNU-SEIT</a>
+                <li class="active"><a href="#">首页</a></li>
+                <li><a href="#">学院新闻</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        院系概况
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">学院概况</a></li>
+                        <li><a href="#">学院历史</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header" >机构设置</li>
+                        <li><a href="#">组织机构</a></li>
+                        <li><a href="#">院系领导</a></li>
+                        <li><a href="#">师资队伍</a></li>
+                    </ul>
+                </li>
+            </ul>
+          </div>
+        </nav>
+    </div>
+</div>
+
+<br/>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4"align="center">
+            <img src="杨浩.jpg"  class="img-circle" >
+            <br/>
+            <p style="font-size: 20px!important;">杨浩 院长</p>
+            <p>1996年8月于美国佛罗里达国际大学教育学院获博士学位，
+                1997年9月至今历任纽约州立大学奥斯威戈分校助理教授、副教授、教授；2010年11月至今被聘为华中
+                师范大学国家数字化学习工程技术研究中心特聘教授、楚天学者，2013年11月起担任华中师范大学教育信息技术学院院长、教授。</p>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">了解更多
+                </button>
+            </div>
+        </div>
+
+        <div class="col-md-4"align="center">
+            <img src="杨久民.jpg"  class="img-circle" >
+            <br/>
+            <p style="font-size: 20px!important;">杨久民 副院长</p>
+            <p>1991年6月于华中师范大学获得学士学位；1999年12月获得教育学硕士学位（北京师范大学）；
+                2014年获得心理学博士学位（华中师范大学）。现为教育信息技术学院副院长、教授，华中师范大学国家级文科综合实验教学示范中心主任，
+                2013-2017年期间担任教育部教育技术学专业教学指导分委员会秘书长。 </p>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">了解更多
+                </button>
+            </div>
+        </div>
+
+        <div class="col-md-4"align="center">
+            <img src="左明章.jpg"  class="img-circle" >
+            <br/>
+            <p style="font-size: 20px!important;">左明章 副院长</p>
+            <p>2008年12月于华中师范大学教育学院获教育学博士学位，2009年6月至今被聘为华中师范大学教育技术学教授、
+                博士生导师；现任教育信息技术学院副院长、国家级实验教学示范中心“文科综合实验教学示范中心”副主任，
+                湖北省战略新兴（支柱）产业人才培养计划“数字媒体技术专业建设” 项目负责人。 </p>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">了解更多
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <br/>
+    <br/>
+    <div class="container" >
+        <div class="row" style="margin: 20px 0;">
+            <div class="pull-right col-md-8">
+                <img class="img-responsive center-block" src="教师合影.jpg" >
+            </div>
+            <div class="pull-left  col-md-4" >
+                <h1>数字媒体系教师合影</h1>
+                <p>湖北省数字媒体专业建设研讨会暨华中师大数字媒体专业十年巡礼在我校举行。三十多所高校代表和十多家省内外相关企业参参会。副校长彭南生为开幕式致辞。</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
